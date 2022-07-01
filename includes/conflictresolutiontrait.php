@@ -36,7 +36,6 @@ class Aliased_Talker {
 $o = new Talker();
 $o->smallTalk();
 $o->bigTalk();
-$object = new Aliased_Talker;
-$object->talk();
+
 
 ?>
