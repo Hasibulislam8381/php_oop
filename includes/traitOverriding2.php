@@ -11,9 +11,7 @@ class a{
    one::sum as public;
    	}
 }
-
 $obj = new a();
 $obj->sum();
-
 
 ?>
