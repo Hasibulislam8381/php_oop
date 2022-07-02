@@ -18,9 +18,6 @@ $obj = new A();
 $obj->cal();
 
 echo "<br>";
-$obj1 = new B();
-
-$obj1->cal();
 
 
 ?>
