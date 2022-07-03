@@ -1,17 +1,18 @@
 <?php
 
-class base{
+class Home{
 	public $name = "This is the base class";
 
 	public function calc($a,$b)
 	{
-		return $a+$b;
+		return $a-$b;
 	}
 }
 
-class derived extends base{
+class derived extends Home{
 	public $name = "This is the derived class";
 
+	
 	public function calc($a,$b)
 	{
 		return $a/$b;
