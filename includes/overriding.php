@@ -14,7 +14,7 @@ class derived extends base{
 
 	public function calc($a,$b)
 	{
-		return $a*$b;
+		return $a/$b;
 	}
 }
 
